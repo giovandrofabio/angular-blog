@@ -10,6 +10,7 @@ export class BigCardComponent implements OnInit {
   @Input() phoCover: string = ""
   @Input() cardTitle: string = "";
   @Input() cardDescription: string = ""
+  @Input() Id:string = ""
 
   constructor() { }
 
